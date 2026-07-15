@@ -6,14 +6,6 @@ C++ 콘솔 애플리케이션에서 **MVC(Model / View / Controller)** 아키텍
 
 이 프로젝트는 "S-Semi" 반도체 회사의 **시료(Sample) 생산주문관리 시스템**을 본 개발에 앞서, 먼저 MVC 구조가 콘솔 환경에서도 올바르게 역할 분리될 수 있는지 검증하기 위한 PoC입니다.
 
-전체 과제는 4개의 PoC로 나뉘며, 이 리포지토리는 그중 **"MVC 스켈레톤 코드"** 항목만을 담당합니다.
-
-| PoC 항목 | 설명 | 담당 리포지토리 |
-|---|---|---|
-| **MVC 스켈레톤 코드** | **Model / Controller / View 패키지 구조와 역할 분리 완성 (본 리포지토리)** | ConsoleMVC-donggeon-0119 |
-| 데이터 영속성 처리 | 파일/JSON/DB 등으로 데이터 저장·조회 구조(CRUD) 구현 | DataPersistence-* |
-| 데이터 모니터링 Tool | 저장된 데이터 상태를 콘솔에서 실시간 조회 | DataMonitor-* |
-| Dummy 데이터 생성 Tool | 테스트용 더미 데이터 생성 및 DB 반영 | DummyDataGenerator-* |
 
 ## 이 리포지토리의 목적
 
